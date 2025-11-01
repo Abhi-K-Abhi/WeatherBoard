@@ -1,8 +1,7 @@
 function App() {
   return (
-    <div>
-      <h1>🌦️ Weather Dashboard</h1>
-      <p>Welcome! Let’s build this together step by step.</p>
+    <div className="min-h-screen bg-gradient-to-r from-blue-300 to-indigo-400 flex items-center justify-center">
+      <h1 className="text-4xl font-bold text-white">🌦️ Weather Dashboard</h1>
     </div>
   );
 }
